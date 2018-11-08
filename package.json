@@ -2,7 +2,8 @@
   "description": "test",
   "private": true,
   "scripts": {
-    "build:polymer": "polymer build"
+    "build:polymer": "polymer build",
+    "start": "polymer serve"
   },
   "engines": {
     "node": ">= 8.0 < 10"
