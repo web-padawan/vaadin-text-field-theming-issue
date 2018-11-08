@@ -1,0 +1,35 @@
+{
+    "entrypoint": "index-polymer.html",
+    "shell": "src/elements-collection/base-elements.js",
+    "sources": [
+      "src/elements-collection/base-elements.js",
+      "package.json"
+    ],
+    "extraDependencies": [
+      "node_modules/@webcomponents/webcomponentsjs/**",
+      "node_modules/web-animations-js/web-animations-next-lite.min.js"
+    ],
+    "builds": [
+      {
+        "name": "es6-bundled",
+        "browserCapabilities": [
+          "es2015"
+        ],
+        "js": {
+          "compile": "es2015",
+          "minify": true,
+          "transformModulesToAmd": true
+        },
+        "css": {
+          "minify": true
+        },
+        "html": {
+          "minify": true
+        },
+        "bundle": true,
+        "addServiceWorker": false
+      }
+    ],
+    "moduleResolution": "node",
+    "npm": true
+  }
