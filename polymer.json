@@ -1,5 +1,5 @@
 {
-    "entrypoint": "index-polymer.html",
+    "entrypoint": "index.html",
     "shell": "src/elements-collection/base-elements.js",
     "sources": [
       "src/elements-collection/base-elements.js",

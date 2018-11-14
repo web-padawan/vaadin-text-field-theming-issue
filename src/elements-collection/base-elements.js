@@ -1,1 +1,1 @@
-import '@vaadin/vaadin-date-picker/vaadin-date-picker.js';
+import '@vaadin/vaadin-text-field/vaadin-text-field.js';
