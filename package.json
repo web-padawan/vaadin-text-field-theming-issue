@@ -3,6 +3,7 @@
   "private": true,
   "scripts": {
     "build": "polymer build",
+    "build:rollup": "rollup -c",
     "start": "polymer serve"
   },
   "dependencies": {
@@ -10,5 +11,9 @@
     "@vaadin/vaadin-button": "^2.1.0",
     "@vaadin/vaadin-text-field": "^2.1.0",
     "@webcomponents/webcomponentsjs": "^2.1.3"
+  },
+  "devDependencies": {
+    "@open-wc/building-rollup": "^0.12.12",
+    "rollup": "^1.27.0"
   }
 }
